@@ -1,0 +1,30 @@
+.container{
+  border: 0rpx;
+  height:0;
+  width:100%;
+  padding-top: 0;
+}
+.swiper{
+ 
+ 
+}
+.slide-image{
+  width:100%;
+  height:100%;
+}
+.notice{
+  display:flex;
+  flex-wrap:nowrap;
+  align-items: center;
+  height:60rpx;
+  margin-top: 0px,#DCDADB;
+}
+.notice-til{
+  background-image: url('../../images/icon-radio.png');
+  background-repeat:no-repeat;
+  background-position:left center;
+  background-size:18px 28px;
+  text-indent:38px;
+  
+
+}

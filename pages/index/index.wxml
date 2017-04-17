@@ -14,15 +14,24 @@
       </block>
    </swiper>
 </view>
-
+<!--img swiper-->
 <view class="notice">  
    <view class="notice-til">
    最新通知：
    </view>
    <view class="notice-con">
-   第七期课程转码已经完成
+   <text>第七期课程转码已经完成</text>  
    </view>
 </view>
+<!--通知栏-->
+<navigator class="classlist" wx:for="{{classlist}}" url="/pages/detail/detail?id=1">
+    <image class="img" src="{{item.img}}"></image>
+    <view class="txt">
+    <view class="til">{{item.name}}</view>
+    <view class="text">{{item.text}}</view>
+    <view class="teacher">{{item.teacher}}</view>
+    </view>
+</navigator>
 
 
 

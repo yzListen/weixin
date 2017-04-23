@@ -16,11 +16,14 @@
 </view>
 <!--img swiper-->
 <view class="notice">  
+    <view>
+    <image class="notice-image" src="../../images/icon-radio.png"></image>
+    </view>
    <view class="notice-til">
    最新通知：
    </view>
    <view class="notice-con">
-   <text>第七期课程转码已经完成</text>  
+   <text> 第七期课程转码已经完成,欢迎大家观看...</text>  
    </view>
 </view>
 <!--通知栏-->

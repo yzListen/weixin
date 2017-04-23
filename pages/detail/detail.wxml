@@ -3,16 +3,20 @@
   <view class="btn-area">
   </view>
 </view>
+
 <view class="sum">
   <view class="til">第一课：小程序入门准备
   </view>
   <view class="text">本节课首先介绍什么是小程序的实现原理,让大家对小程序有一个基本的了解，接着带大家部署好微信小程序的开发环境,以及一些注意事项,为之后的学习打下基础。
   </view>
   <view class="counter">
-    <view class="browse">浏览量：
-    </view>
-    <view class="appre-img"><image src="../../images/icon-heart.png"></image>
-    </view>
-  </view>
 
+    <view class="browse">浏览量： 2222</view>
+    
+    <view class="appre">
+       <image class="appre-img" src="../../images/icon-heart.png"></image>
+       <view class="appre-text">赞</view>
+    </view>
+
+  </view>
 </view>

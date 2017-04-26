@@ -16,7 +16,8 @@
     <view class="appre">
        <image class="appre-img" src="../../images/icon-heart.png"></image>
        <view class="appre-text">赞</view>
-    </view>
+    </view>  
 
   </view>
+  <button class="button"><image class="but-img" src="../../images/icon-download.png"></image>资料下载</button>
 </view>

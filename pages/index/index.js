@@ -1,3 +1,4 @@
+var order = ['1', '2', '3', '4', '1']
 Page({
   data: {
     imgUrls: [

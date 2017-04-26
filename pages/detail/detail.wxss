@@ -43,3 +43,17 @@ video{
     font-size: 24rpx;
     margin-left: 10rpx;color: RGB(153,153,153);
 }
+.button{
+    width:600rpx;
+    height:70rpx;
+    margin-top:64rpx;
+    background-color: RGB(0,136,204);
+    color:white;
+    line-height:2;
+ 
+ 
+}
+.but-img{
+    width:28rpx;
+    height:28rpx;
+}

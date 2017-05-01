@@ -1,3 +1,4 @@
+<view class="bg">
 <view class="video">
   <video src="{{src}}"   controls ></video>
   <view class="btn-area">
@@ -14,10 +15,11 @@
     <view class="browse">浏览量： 2222</view>
     
     <view class="appre">
-       <image class="appre-img" src="../../images/icon-heart.png"></image>
-       <view class="appre-text">赞</view>
+       <image class="appre-img" src="{{like}}" bindtap="like"></image>
+       <view class="appre-text" bindtap="like">赞</view>
     </view>  
 
-  </view>
+  </view></view>
   <button class="button"><image class="but-img" src="../../images/icon-download.png"></image>资料下载</button>
+
 </view>

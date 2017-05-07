@@ -27,15 +27,31 @@
    </view>
 </view>
 <!--通知栏-->
-<navigator class="classlist" wx:for="{{classlist}}" url="/pages/detail/detail?id=1">
-    <image class="img" src="{{item.img}}"></image>
+<navigator class="classlist" wx:for="{{classlist1}}" url="/pages/detail/detail?id={{item.cl_id}}">
+    <image class="img" src="{{item.cl_img}}"></image>
     <view class="txt">
-    <view class="til">{{item.name}}</view>
-    <view class="text">{{item.text}}</view>
-    <view class="teacher">{{item.teacher}}</view>
+    <view class="til">{{item.cl_title}}</view>
+    <view class="text">{{item.cl_detail}}</view>
+    <view class="teacher">{{item.cl_teacher}}</view>
     </view>
 </navigator>
-
+<!--cl_detail
+:
+"介绍什么是小程序、小程序的实现原理、开发环境的部署、视图与渲染、以及事件..."
+cl_id
+:
+"1"
+cl_img
+:
+"https://zhangdetalk.com/class/images/cover-1.jpg"
+cl_teacher
+:
+"主讲老师：张德检"
+cl_title
+:
+"第一课：打好入门基础"
+cl_video
+:-->
 
 
 

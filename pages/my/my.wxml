@@ -4,10 +4,10 @@
         <text class="text-1">小程序课堂</text>
         <text class="text-2">输入登录信息</text>
         
-            <input  class="qq-input" placeholder="QQ号" placeholder-class="qq-text"></input>
+            <input  class="qq-input" placeholder="QQ号" placeholder-class="qq-text" bindinput="qqinput"></input>
         
-            <input  class="pw-input" placeholder="密码" placeholder-class="pw-text" ></input>
-        <button class="login">登录</button>
+            <input  class="pw-input" placeholder="密码" placeholder-class="pw-text" bindinput="pwinput" password="true"></input>
+        <button class="login" bindtap="login">登录</button>
 
     </view>
 </view>

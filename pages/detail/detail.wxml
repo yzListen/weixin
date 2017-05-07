@@ -1,18 +1,18 @@
 <view class="bg">
-<view class="video">
-  <video src="{{src}}"   controls ></video>
+<view class="video" wx:for="{{detail}}" >
+  <video src="{{item.cl_video}}"   controls ></video>
   <view class="btn-area">
   </view>
 </view>
 
-<view class="sum">
-  <view class="til">第一课：小程序入门准备
+<view class="sum" wx:for="{{detail}}">
+  <view class="til">{{item.cl_title}}
   </view>
-  <view class="text">本节课首先介绍什么是小程序的实现原理,让大家对小程序有一个基本的了解，接着带大家部署好微信小程序的开发环境,以及一些注意事项,为之后的学习打下基础。
+  <view class="text">{{item.cl_detail}}
   </view>
   <view class="counter">
 
-    <view class="browse">浏览量： 2222</view>
+    <view class="browse">浏览量：{{item.cl_view_num}}</view>
     
     <view class="appre">
        <image class="appre-img" src="{{like}}" bindtap="like"></image>
@@ -20,6 +20,27 @@
     </view>  
 
   </view></view>
-  <button class="button"><image class="but-img" src="../../images/icon-download.png"></image>资料下载</button>
+  <button class="button" bindtap="download"><image class="but-img" src="../../images/icon-download.png"></image>资料下载</button>
 
 </view>
+<!--cl_detail
+:
+"介绍什么是小程序、小程序的实现原理、开发环境的部署、视图与渲染、以及事件..."
+cl_id
+:
+"1"
+cl_like_num
+:
+"100"
+cl_study_file
+:
+"https://zhangdetalk.com/class/images/1.pdf"
+cl_title
+:
+"第一课：打好入门基础"
+cl_video
+:
+"http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=30280201010421301f0201690402534804102ca905ce620b1241b726bc41dcff44e00204012882540400&bizid=1023&hy=SH&fileparam=302c020101042530230204136ffd93020457e3c4ff02024ef202031e8d7f02030f42400204045a320"
+cl_view_num
+:
+"1000"-->

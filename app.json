@@ -3,8 +3,8 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/detail/detail",
-    "pages/my/my",
-    "pages/my1/my1"
+    "pages/login/login",
+    "pages/my/my"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -29,7 +29,7 @@
       "selectedIconPath":"images/icon-ask-a.png"
     },
     {
-    "pagePath":"pages/my/my",
+    "pagePath":"pages/login/login",
     "text":"我的",
     "iconPath":"images/icon-my.png",
     "selectedIconPath":"images/icon-my-a.png"
